@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 300 & display = swap');
 * {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: hsl(185, 75%, 39%)  ;
+  padding: 20px;
+
 }
 
 .attribution {
@@ -14,39 +21,38 @@
 
 body {
   background-image: url(./images/bg-pattern-top.svg);
+  background-image: url(./images/bg-pattern-bottom.svg);
 }
 
 .card {
-  background-color: aqua;
-  max-width: 400px;
+  background-color: white;
+  width: 300px;
   border-radius: 20px;
   padding: 0;
   margin: 100px auto;
   text-align: center;
+}
 
-} 
 
-.img-card {
-  text-align: center;
-  padding: 0;
+.img-card img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
   position: relative;
 
 }
 
-.img-card img {
-  width: 100%;
-  position: absolute;
-
-}
-
-.img-text {
-  margin:  auto;
-}
-
 .img-text img {
   border-radius: 50%;
+  border: solid 5px white;
+  top: -50px;
+  position: relative;
 }
 
-.descricao {
-  align-items: center;
+
+.descricao { 
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 30px;
+  border-top: solid 1px hsl(0, 0%, 59%);
+  
 }
