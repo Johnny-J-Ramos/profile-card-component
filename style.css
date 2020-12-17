@@ -1,7 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+body {
+  background-image: url(./images/bg-pattern-top.svg);
+}
+
+.card {
+  background-color: aqua;
+  max-width: 400px;
+  border-radius: 20px;
+  padding: 0;
+  margin: 100px auto;
+  text-align: center;
+
+} 
+
+.img-card {
+  text-align: center;
+  padding: 0;
+  position: relative;
+
+}
+
+.img-card img {
+  width: 100%;
+  position: absolute;
+
+}
+
+.img-text {
+  margin:  auto;
+}
+
+.img-text img {
+  border-radius: 50%;
+}
+
+.descricao {
+  align-items: center;
 }
