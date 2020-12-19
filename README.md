@@ -18,5 +18,6 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 ### Challenge checkout
 
-[01] Profile card component
+#### [01] Profile card component
+
 Feito por **Johnny Jefferson**
