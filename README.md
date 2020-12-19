@@ -20,4 +20,4 @@ You can use any tools you like to help you complete the challenge. So if you've 
 
 #### [01] Profile card component
 
-Feito por [Johnny](https://www.linkedin.com/in/johnny-jefferson1010)
+Feito por [Johnny Jefferson](https://www.linkedin.com/in/johnny-jefferson1010)
